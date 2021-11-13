@@ -28,13 +28,13 @@ exam_three = str(input("Input exam grade three: "))
 grades = [exam_one,exam_two,exam_three]
 summ = 0
 for x in grades:
-  ans = summ + x
+  ans = int(summ) + str(x
 
 avg = ans / len(x)
 
 if avg >= 90:
     letter_grade = "A"
-elif avg >= 80 and avg < 90:
+elif avg >= 80 and avg <= 89:
     letter_grade = "B"
 elif avg > 69 and avg < 80:
     letter_grade = "C"
