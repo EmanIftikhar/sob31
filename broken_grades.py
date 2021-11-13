@@ -40,7 +40,7 @@ elif avg > 69 and avg < 80:
     letter_grade = "C"
 elif avg <= 69 and avg >= 65:
     letter_grade = "D"
-elif:
+else:
     letter_grade = "F"
 
 for grade in grades:
