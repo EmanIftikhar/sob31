@@ -27,7 +27,7 @@ exam_three = str(input("Input exam grade three: "))
 
 grades = [exam_one,exam_two,exam_three]
 sum = 0
-for x in grade:
+for x in grades:
   sum = sum + x
 
 avg = sum / len(x)
