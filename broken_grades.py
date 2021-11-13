@@ -27,10 +27,10 @@ exam_three = str(input("Input exam grade three: "))
 
 grades = [exam_one,exam_two,exam_three]
 sum = 0
-for grade in grade:
-  sum = sum + grade
+for x in grade:
+  sum = sum + x
 
-avg = sum / len(grdes)
+avg = sum / len(x)
 
 if avg >= 90:
     letter_grade = "A"
