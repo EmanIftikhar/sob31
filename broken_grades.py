@@ -46,7 +46,7 @@ print(exam_one,exam_two,exam_three)
 print("Average: " + str(int(avg)))
 print("Grade: " + letter_grade)
 
-if letter-grade=="F":
+if letter_grade=="F":
     print( "Student is failing.")
 else:
     print ("Student is passing.")
