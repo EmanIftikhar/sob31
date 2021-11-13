@@ -42,12 +42,9 @@ elif int(avg)>= 60 and int(avg) <= 69:
 else:
     letter_grade="F"
 
-for grade in grades:
-    print("Exam: " + str(grade))
-
-    print("Average: " + str(avg))
-
-    print("Grade: " + letter_grade)
+print(exam_one,exam_two,exam_three)
+print("Average: " + str(int(avg)))
+print("Grade: " + letter_grade)
 
 if letter-grade=="F":
     print( "Student is failing.")
