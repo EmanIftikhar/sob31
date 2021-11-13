@@ -21,16 +21,15 @@
 
 exam_one = int(input("Input exam grade one: "))
 
-exam_two = input("Input exam grade two: ")
+exam_two = int(input("Input exam grade two: "))
 
-exam_three = str(input("Input exam grade three: "))
+exam_three = int((input("Input exam grade three: ")))
 
-grades = [exam_one,exam_two,exam_three]
-summ = 0
-for x in grades:
-  ans = int(summ) + str(x
 
-avg = ans / len(x)
+
+summ=int(exam_one)+int(exam_two)+int(exam_three)
+avg=float(summ)/int(3)
+
 
 if avg >= 90:
     letter_grade = "A"
