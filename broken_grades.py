@@ -31,16 +31,16 @@ summ=int(exam_one)+int(exam_two)+int(exam_three)
 avg=float(summ)/int(3)
 
 
-if avg >= 90:
-    letter_grade = "A"
-elif avg >= 80 and avg <= 89:
-    letter_grade = "B"
-elif avg > 69 and avg < 80:
-    letter_grade = "C"
-elif avg <= 69 and avg >= 65:
-    letter_grade = "D"
+if int(avg)>= 90:
+    letter_grade="A"
+elif int(avg) < 90 and int(avg)>=80:
+    letter_grade= "B"
+elif int(avg)>=70 and int(avg) <=79:
+    letter_grade="C"
+elif int(avg)>= 60 and int(avg) <= 69:
+    letter_grade="D"
 else:
-    letter_grade = "F"
+    letter_grade="F"
 
 for grade in grades:
     print("Exam: " + str(grade))
